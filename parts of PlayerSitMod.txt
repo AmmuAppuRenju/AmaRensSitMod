@@ -1,0 +1,9 @@
+parts of "PlayerSitMod":
+
+1. Detect if the player hits a certain bind ✔
+2. Make sure the player is on the ground ✔
+3. Make the player sit on the blocks they are directly under
+    - make an entity below player then make player sit on that ✔
+    - create ride function in Block
+4.Make entity spawn when bind is pressed ✔
+5.player sit in that entity ✔
