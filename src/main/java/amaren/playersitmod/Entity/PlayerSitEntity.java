@@ -10,13 +10,11 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.vehicle.VehicleEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
-import net.minecraft.world.phys.Vec3;
 
 
 public class PlayerSitEntity extends VehicleEntity {
@@ -44,11 +42,12 @@ public class PlayerSitEntity extends VehicleEntity {
 
     }
 
+
     //to make surre it can be interacted with
-    @Override
-    public boolean isPickable() {
-        return true;
-    }
+//    @Override
+//    public boolean isPickable() {
+//        return true;
+//    }
 
     @Override
     protected void removePassenger(Entity passenger) {

@@ -1,11 +1,9 @@
 package amaren.playersitmod.client;
 
 import amaren.playersitmod.Entity.ModEntityReg;
-import amaren.playersitmod.Networking.packets.SitPacket;
 import amaren.playersitmod.client.Renderers.PlayerSitRenderer;
 import amaren.playersitmod.client.keyevents.KeyBinds;
 import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 
 public class PlayerSitModClient implements ClientModInitializer {
