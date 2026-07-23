@@ -1,4 +1,4 @@
-# PlayerSitMod
+# AmaRensSitMod
 
 ## Setup
 
